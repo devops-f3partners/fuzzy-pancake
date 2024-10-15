@@ -1,0 +1,21 @@
+{
+    "commandline_args": null,
+    "credentials": "YOUR_CREDENTIALS",
+    "description": "",
+    "execution_timeout": 3600,
+    "id": "OHK-ws5jjzfg",
+    "last_updated": "2024-10-15",
+    "max_retries": 2,
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Install IIS",
+    "remove_after_run": true,
+    "resource_technologies": [],
+    "run_with_sudo": false,
+    "script_filename": "Install IIS Script.py",
+    "shared": true,
+    "target_os_families": [
+        "Windows"
+    ],
+    "type": "Remote Script"
+}
