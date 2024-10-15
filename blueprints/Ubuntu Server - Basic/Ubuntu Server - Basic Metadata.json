@@ -1,0 +1,43 @@
+{
+    "any_group_can_deploy": true,
+    "auto_historical_resources": false,
+    "deployment_items": [
+        {
+            "all_environments_enabled": true,
+            "allowed_os_families": [
+                "Ubuntu"
+            ],
+            "applications": null,
+            "deploy_seq": 1,
+            "description": "",
+            "environment_selection_orchestration": null,
+            "execute_in_parallel": false,
+            "hostname_template": "",
+            "id": "BDI-9hvuipqj",
+            "name": "Server",
+            "os_build": {
+                "href": "/api/v3/cmp/osBuilds/OSB-dobi76wf/",
+                "title": "Ubuntu Server"
+            },
+            "restrict_applications": false,
+            "show_on_order_form": true,
+            "tier_type": "server"
+        }
+    ],
+    "description": "Provision a new Ubuntu Server",
+    "favorited": false,
+    "icon": "icon.png",
+    "id": "BP-8rg190yn",
+    "is_manageable": true,
+    "is_orderable": true,
+    "labels": [],
+    "last_updated": "2024-10-15",
+    "management_actions": [],
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Ubuntu Server - Basic",
+    "resource_name_template": null,
+    "sequence": 0,
+    "show_recipient_field_on_order_form": false,
+    "teardown_items": []
+}
