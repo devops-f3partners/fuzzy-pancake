@@ -1,0 +1,43 @@
+{
+    "any_group_can_deploy": true,
+    "auto_historical_resources": false,
+    "deployment_items": [
+        {
+            "all_environments_enabled": false,
+            "allowed_os_families": [
+                "Windows"
+            ],
+            "applications": null,
+            "deploy_seq": 1,
+            "description": "",
+            "environment_selection_orchestration": null,
+            "execute_in_parallel": false,
+            "hostname_template": "{{ group.name|lower|first}}-{{ os_family.get_base_name|lower|first }}-00X",
+            "id": "BDI-bkrul0m0",
+            "name": "Server",
+            "os_build": {
+                "href": "/api/v3/cmp/osBuilds/OSB-95y0qgyg/",
+                "title": "Windows Server 2022"
+            },
+            "restrict_applications": false,
+            "show_on_order_form": true,
+            "tier_type": "server"
+        }
+    ],
+    "description": "Provision a new Windows 2022 server",
+    "favorited": false,
+    "icon": "download.png",
+    "id": "BP-1hnwl12w",
+    "is_manageable": true,
+    "is_orderable": true,
+    "labels": [],
+    "last_updated": "2024-10-15",
+    "management_actions": [],
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Windows Server - Basic",
+    "resource_name_template": null,
+    "sequence": 0,
+    "show_recipient_field_on_order_form": false,
+    "teardown_items": []
+}
